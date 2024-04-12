@@ -75,4 +75,5 @@ int successor(bst_t *node);
 int remove_type(bst_t *root);
 bst_t *bst_remove(bst_t *root, int value);
 avl_t *avl_remove(avl_t *root, int value);
+avl_t *array_to_avl(int *array, size_t size);
 #endif /* BINARY_TREES */
