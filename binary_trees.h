@@ -44,5 +44,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree);
 int pow_recur(int x, int y);
 size_t tree_size(const binary_tree_t *tree);
 size_t tree_height(const binary_tree_t *tree);
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 
 #endif /* BINARY_TREES */
