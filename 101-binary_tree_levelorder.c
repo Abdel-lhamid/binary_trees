@@ -24,7 +24,8 @@ return (1 + (left_height > right_height ? left_height : right_height));
  *
  * Return: Void
  */
-void binary_tree_level(const binary_tree_t *tree, size_t level, void (*func)(int))
+void binary_tree_level(const binary_tree_t *tree, size_t level
+		, void (*func)(int))
 {
 if (tree == NULL)
 return;
