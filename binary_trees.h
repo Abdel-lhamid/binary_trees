@@ -80,4 +80,7 @@ avl_t *array_to_avl(int *array, size_t size);
 avl_t *_sorted_array_to_avl(int *array, int start, int end, avl_t *parent);
 avl_t *sorted_array_to_avl(int *array, size_t size);
 size_t binary_tree_nodes(const binary_tree_t *tree);
+int tree_is_complete(const binary_tree_t *tree, int i, int cnodes);
+int check_parent(const binary_tree_t *tree);
+int binary_tree_is_heap(const binary_tree_t *tree);
 #endif /* BINARY_TREES */
